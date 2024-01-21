@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*===============Header Icons=========*/
+.fa-ellipsis{
+    font-size: 30px;
+}
+#megaphone{
+    width: 20px;
+}
+.nav-list-1 li i:nth-child(odd){
+    margin-left: 5px;
+}
+/*==============Header================*/
+header{
+    background-color: white;
+    border-bottom: 1px solid rgb(220, 216, 216);
+    height: 73px;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    
+}
+#logo{
+    height: 100px;
+    width: 150px;
+    margin: -12px 0px 0px 25px;
+}
+header nav {
+    display: flex;  
+    font-size: 18px; 
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;  
+}
+header nav ul li{
+    margin-left: 30px;
+}
+.nav-list-2{
+    display: flex;
+    margin-left: 380px;
+    font-size: 15px;    
+}
+.nav-list-1{
+    display: flex;   
+}
+#sign-up{
+    color: red;
+    border: solid 1px;
+    padding:9px 15px;
+    font-weight: bold;
+}
+#sign-up:hover{
+    background-color: red;
+    color: white;
+}
+#en{
+    margin-left: 5px;
+}
+header nav ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.sub-list-ellipsis{
+    display: none;
+}
+header nav ul li:hover .sub-list-ellipsis{
+    display: block;
+    background-color: white;
+    position: absolute;
+    color: black;
+    border: 1px solid black;
+}
+header nav ul li:hover .sub-list-ellipsis ul{
+    display: block;
+    padding: 20px 20px 20px 0px;
+}
+header nav ul li:hover .sub-list-ellipsis ul li{
+    width: 170px;
+    text-align: left;
+    padding-top:10px;
+    color: rgb(106, 102, 102);
+}
+header .nav-list-1 . sub-list-ellipsis span{
+    color: rgb(106, 102, 102);
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid rgb(106, 102, 102) ;
+    height: 1px;
+    width: 1px;
+}
